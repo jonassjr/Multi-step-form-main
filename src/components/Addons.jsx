@@ -46,6 +46,7 @@ const Addons = ({ data, updateFieldHandler }) => {
             className={`border border-solid border-Cool-gray p-3 flex
             rounded-md items-center w-full justify-between
             cursor-pointer transition ease-in-out duration-300 
+            hover:border-Purplish-blue
             ${
               selectedAddons.some(
                 (selectedAddon) => selectedAddon.id === item.id

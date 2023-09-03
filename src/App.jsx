@@ -83,7 +83,7 @@ function App() {
         className="w-full flex flex-col justify-between
       min-[1024px]:bg-White min-[1024px]:flex-row min-[1024px]:p-4 
         min-[1024px]:w-[950px] min-[1024px]:mx-auto rounded-xl 
-        min-[1024px]:my-auto"
+        min-[1024px]:my-auto min-[1024px]:shadow-xl"
       >
         <Steps currentStep={currentStep} />
 
